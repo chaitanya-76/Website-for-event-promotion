@@ -208,10 +208,10 @@ const Home = () => {
             ref={lowerRef}
             className="w-full mt-6 sm:mt-12 pt-5 border-t border-red-100/80"
           >
-            <p className="text-[10px] sm:text-xs font-bold uppercase tracking-[0.2em] text-[#DF2935] mb-3">
+            <p className="text-[10px] sm:text-xs font-bold uppercase tracking-[0.2em] bg-transparent text-[#DF2935] mb-3">
               {timeLeft.ended ? "Events are live" : "Countdown to June 5, 2026"}
             </p>
-            <div className="flex justify-center gap-2 sm:gap-3 mb-5">
+            <div className="flex justify-center gap-2 sm:gap-3 bg-transparent mb-5">
               <CountdownUnit value={timeLeft.days} label="Days" />
               <CountdownUnit value={timeLeft.hours} label="Hrs" />
               <CountdownUnit value={timeLeft.minutes} label="Min" />
