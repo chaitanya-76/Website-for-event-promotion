@@ -1,8 +1,8 @@
-import drama from '../images/drama.jpeg';
-import poetry from '../images/poetry.jpeg';
-import rangoli from '../images/rangoli.jpeg';
-import poster from '../images/poster.jpeg';
-import mind from '../images/mind.jpeg';
+import drama from '../images/drama.png';
+import poetry from '../images/poetry.png';
+import rangoli from '../images/rangoli.png';
+import poster from '../images/poster.png';
+import mind from '../images/mind.png';
 
 export const EVENT_DATA = [
   {
