@@ -4,10 +4,12 @@ import Home from './pages/Home';
 import { Route, Routes } from 'react-router-dom';
 import Events from './pages/Events';
 import EventDetail from "./pages/EventDetail";
+import ScrollToTop from './components/ScrollToTop';
 
 export default function App() {
   return (
     <div>
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/events' element={<Events />} />
