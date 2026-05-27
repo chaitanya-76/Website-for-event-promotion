@@ -79,7 +79,7 @@ const EventDetail = () => {
             <div className="absolute -top-10 -right-10 text-[180px] opacity-10 select-none">{t.accentEmoji}</div>
             <div className="relative">
               <span className="inline-block text-[11px] font-bold uppercase tracking-[0.2em] bg-white/20 backdrop-blur px-3 py-1 rounded-full mb-4">
-                {event.tag} • Organized by TIT Ex.
+                {event.tag} • Organized by TIT Excellence
               </span>
               <h1 className="text-3xl sm:text-5xl font-extrabold leading-tight tracking-tight">
                 {event.title}

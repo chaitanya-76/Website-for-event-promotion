@@ -231,7 +231,7 @@ const Home = () => {
             </div>
 
             <p className="mt-5 text-[10px] sm:text-xs text-slate-400">
-              Organized by TIT Ex. · Anand Nagar, BHEL, Bhopal
+              Organized by TIT Excellence · Anand Nagar, BHEL, Bhopal
             </p>
           </div>
         </div>
