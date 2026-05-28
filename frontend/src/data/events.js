@@ -1,5 +1,5 @@
 import drama from '../images/drama.png';
-import poetry from '../images/poetry.png';
+import poetry from '../images/poetry_poster.png';
 import rangoli from '../images/rangoli.png';
 import poster from '../images/poster.png';
 import mind from '../images/mind.png';
