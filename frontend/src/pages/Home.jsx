@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { useNavigate } from "react-router-dom";
-import titlogo from "../images/tit-logo.png";
+import titlogo from "../images/tit-logo-estd-2007-removebg-preview.png";
 import iic from "../images/iic.png";
 import iei from "../images/iei.png";
 import "remixicon/fonts/remixicon.css";
@@ -154,19 +154,19 @@ const Home = () => {
           ref={img1Ref}
           src={titlogo}
           alt="TIT Excellence"
-          className="h-10 sm:h-12 lg:h-14 w-auto object-contain"
+          className="h-10 sm:h-16 lg:h-20 w-auto object-contain"
         />
         <img
           ref={img2Ref}
           src={iei}
           alt="IEI"
-          className="h-9 sm:h-11 lg:h-13 w-auto object-contain"
+          className="h-9 sm:h-14 lg:h-17 w-auto object-contain"
         />
         <img
           ref={img3Ref}
           src={iic}
           alt="IIC"
-          className="h-10 sm:h-12 lg:h-14 w-auto object-contain"
+          className="h-10 sm:h-13 lg:h-15 w-auto object-contain"
         />
       </div>
 
